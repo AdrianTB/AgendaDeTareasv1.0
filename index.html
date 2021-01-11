@@ -13,7 +13,9 @@
   <body>
     <div class="container" id="app">
 
-        <h3>{{titulo}}</h3>
+        <h3><center>{{titulo}}</center></h3>
+        <br>
+        <hr>
 
         <input type="text" class="form-control my-3" v-model="nuevaTarea" v-on:keyup.enter="agregarTarea" >
         <button class="btn btn-primary" @click="agregarTarea" >Agregar</button>
